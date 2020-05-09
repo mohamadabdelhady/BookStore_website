@@ -1,0 +1,42 @@
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #57a0d3;
+	height:60px;
+	width: 100%;
+	
+}
+main{
+	min-height: 100vh;
+}
+nav{
+	position: absolute;
+	left: 0;
+	margin-top:52px;
+	padding-left: 20px;
+	width: 100%;
+	background-color: #95c8d8;
+
+}
+a{
+	text-decoration:none;
+	color: white;
+}
+#search_bar{
+	position: absolute;
+	left: 0;
+	margin-top: 70px;
+	padding-left: 20px;
+	width: 100%;
+
+	background-color:#b0dbe5;
+}
+
+footer{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	
+	background-color: #57a0d3;
+}
