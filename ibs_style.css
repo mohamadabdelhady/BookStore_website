@@ -32,7 +32,25 @@ a{
 	
 	background-color:#b0dbe5;
 }
-
+#search_button{
+	float: right;
+margin-right: 40px;
+margin-top: 4px;
+height: 25px;
+border-radius: 12px;
+border:2px solid #4682b4;
+	
+}
+#search_button:hover{
+background-color: #81d8d0;
+}
+#search_input{
+	float: right;
+	width: 400px;
+	height: 25px;
+	margin-right: 10px;
+	border:2px solid #4682b4;
+}
 footer{
 	position: absolute;
 	left: 0;
