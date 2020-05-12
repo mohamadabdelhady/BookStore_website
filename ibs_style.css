@@ -85,10 +85,12 @@ margin-top: 4px;
 height: 25px;
 border-radius: 12px;
 border:1px solid #4682b4;
+color: #4682b4;
 	
 }
 #search_button:hover{
 background-color: #81d8d0;
+color: white;
 }
 #search_input{
 	float: right;
@@ -96,6 +98,39 @@ background-color: #81d8d0;
 	height: 25px;
 	margin-right: 10px;
 	border:1px solid #4682b4;
+}
+#usernameinput{
+	
+	margin-left: 15px;
+	border:1px solid #4682b4;
+}
+#passwordinput{
+	margin-left: 5px;
+	border:1px solid #4682b4;
+}
+#login_button{
+	margin-left: 5px;
+	margin-top: 4px;
+	height: 25px;
+	border-radius: 12px;
+	border:1px solid #4682b4;
+	color: #4682b4;
+}
+#login_button:hover{
+background-color: #81d8d0;
+color: white;
+}
+#signup_button{
+	margin-left: 5px;
+	margin-top: 4px;
+	height: 25px;
+	border-radius: 12px;
+	border:1px solid #4682b4;
+	color: #4682b4;
+}
+#signup_button:hover{
+background-color: #81d8d0;
+color: white;
 }
 .banner{
 	margin-top: 120px;
