@@ -25,6 +25,7 @@
 		<a href="Horror.html">Horror</a>
 		<a href="Computer science.html">Computer science</a>
 		<a href="Science Fiction.html">Science Fiction</a>
+		
 	</div>
 </div>
 </div>
@@ -32,12 +33,19 @@
 <div id="search_bar">
 	<button type="button" id="search_button" id="search_button">Search</button><input type="text" name="Search" id="search_input">
 	<input type="text" name="username" id="usernameinput" placeholder="User name"><input type="password" name="password" id="passwordinput" placeholder="Password">
-	<button type="button" id="login_button">Log In</button><button type="button" id="signup_button" onclick="document.location='signup.html'">Sign Up</button>
+	<button type="button" id="login_button">Log In</button><button type="button" id="signup_button">Sign Up</button>
 </div>
 
 <main>
-	<div class="banner">
-	<img src="ibs_Science Fiction_banner.jpg" alt="home banner">
+	
+<div class="sinupform">
+	<form>
+		<label for="uname">User name</label><br><input type="text" name="unameinput"><br><br>
+		<label for="email">Email</label><br><input type="text" name="emailinput"><br><br>
+		<label for="password">Password</label><br><input type="password" name="passwordinput"><br><br>
+		<label for="conpassword">Confirm password</label><br><input type="password" name="comfirminput"><br><br>
+		<button type="button" id="signup_button2">Sign up</button>
+	</form>
 </div>
 </main>
 </body>

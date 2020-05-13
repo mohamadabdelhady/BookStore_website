@@ -18,6 +18,26 @@ nav{
 	background-color: #95c8d8;
 
 }
+#search_bar button{
+	height: 25px;
+border-radius: 12px;
+border:1px solid #4682b4;
+color: #4682b4;
+}
+#search_bar button:hover{
+	background-color: #81d8d0;
+color: white;
+}
+main button{
+	height: 25px;
+border-radius: 12px;
+border:1px solid #4682b4;
+color: #4682b4;
+}
+main button:hover{
+	background-color: #81d8d0;
+color: white;
+}
 .nav_items a{
 	text-decoration:none;
 	color: white;
@@ -82,16 +102,10 @@ color: #95c8d8;
 	float: right;
 margin-right: 40px;
 margin-top: 4px;
-height: 25px;
-border-radius: 12px;
-border:1px solid #4682b4;
-color: #4682b4;
+
 	
 }
-#search_button:hover{
-background-color: #81d8d0;
-color: white;
-}
+
 #search_input{
 	float: right;
 	width: 400px;
@@ -111,32 +125,36 @@ color: white;
 #login_button{
 	margin-left: 5px;
 	margin-top: 4px;
-	height: 25px;
-	border-radius: 12px;
-	border:1px solid #4682b4;
-	color: #4682b4;
+	
 }
-#login_button:hover{
-background-color: #81d8d0;
-color: white;
-}
+
 #signup_button{
 	margin-left: 5px;
 	margin-top: 4px;
-	height: 25px;
-	border-radius: 12px;
-	border:1px solid #4682b4;
-	color: #4682b4;
+	
 }
-#signup_button:hover{
-background-color: #81d8d0;
-color: white;
-}
+
 .banner{
 	margin-top: 120px;
 	display: inline-block;
 	margin-right: 30px;
 }
+.sinupform{
+	display: inline-block;
+	margin-top: 200px;
+	padding:20px 20px 20px 20px;
+	border:1px solid #4682b4;
+	position: absolute; 
+  top: 10%;
+  left: 40%
+}
+.sinupform label{
+color: #4682b4;
+}
+.sinupform input{
+	border-color: #4682b4;
+}
+
 footer{
 	position: absolute;
 	left: 0;
