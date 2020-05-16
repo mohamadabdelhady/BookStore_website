@@ -143,10 +143,10 @@ margin-top: 4px;
 	background-color: #95c8d8;
 	display: inline-block;
 	margin-top: 200px;
-	padding:20px 20px 20px 20px;
+	padding:20px 60px 20px 60px;
 	border:1px solid #4682b4;
 	position: absolute; 
-  top: 10%;
+  
   left: 40%
 }
 .sinupform label{

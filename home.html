@@ -40,6 +40,19 @@
 	<div class="banner">
 	<img src="ibs_home_banner.jpg" alt="home banner">
 </div>
+<?php
+include"connection.php"
+$ibsdb=mysai_connect($host,$uname,$pwd,$db_name) or die("error".mysqli_error());
+$img_query=myqli_query($ibsdb,"SELECT name,img_dir FROM books_data");
+while ($row=mysqli_fetch_query($img_query)) {
+	$img_name=$row['name'];
+	$img_src=$row['img_dir'];
+
+}
+?>
+<div class="img_table">
+	<img src="<?php echo $img_src; ?>" alt="" title="img/<?php $img_name ?>" class="img_res" />
+</div>
 </main>
 </body>
 <footer>
