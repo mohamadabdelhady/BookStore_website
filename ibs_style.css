@@ -7,8 +7,11 @@ header{
 	width: 100%;
 	
 }
+*{
+	box-sizing: border-box;
+}
 main{
-	min-height: 100vh;
+	min-height: 120vh;
 }
 nav{
 	position: absolute;
@@ -143,6 +146,7 @@ margin-top: 4px;
 	background-color: #95c8d8;
 	display: inline-block;
 	margin-top: 200px;
+
 	padding:20px 60px 20px 60px;
 	border:1px solid #4682b4;
 	position: absolute; 
@@ -154,6 +158,8 @@ color: #4682b4;
 }
 .sinupform input{
 	border:1px solid #4682b4;
+	width: 200px;
+	height: 25px;
 }
 
 footer{
