@@ -15,9 +15,41 @@ main{
 	left: 8%;
 	top:0;
 }
-.menu_button input{
+.menu_button {
 	width: 60px;height: 60px;
 	margin-left: 20px;
+	margin-bottom: 17px;
+}
+.menu{
+	position: relative;
+	display: inline-block;
+	
+}
+.dropdown_menu{
+	display: none;
+	position: absolute;
+	background-color: black;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown_menu a{
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown_menu p{
+	color: white;
+	padding: 12px 16px;
+	margin: 0;
+	display: block;
+}
+.dropdown_menu p:hover{
+cursor: pointer;
+}
+.show{
+	display: block;
 }
 .search{
 position: absolute;
@@ -33,33 +65,18 @@ top: 15px;
 }
 .log_in{
 	position: absolute;
-	left: 67%;
+	left: 88%;
 	top: 20px;
 	color: white;
 }
-nav{
-	position: absolute;
-	left: 0;
-	top: 80px;
-	width: 100%;
-}
-nav .items{
-	margin-left: 20px;
 
-
-}
 .log_in a{
-	text-decoration: none;
-	color: white;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 5px;
-	border:1px solid white;
-
 }
 .log_in a:hover{
-color: black;
-border-color: black;
+
 }
 footer{
 	position: absolute;
