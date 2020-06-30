@@ -64,9 +64,26 @@ top: 15px;
 .search button{
 	height: 35px;
 }
-.log_in{
+.logp{
 	position: absolute;
-	left: 80%;
+	left: 75%;
+	top: 40px;
+	color: white;
+}
+.crp{
+	position: absolute;
+	left: 85%;
+	top: 40px;
+	color: white;
+}
+.imglog{
+	position: absolute;
+	left: 75%;
+	top: 20px;
+}
+.crimg{
+position: absolute;
+	left: 85%;
 	top: 20px;
 }
 .log_in a{
