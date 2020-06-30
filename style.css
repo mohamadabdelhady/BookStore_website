@@ -9,6 +9,7 @@ header{
 }
 main{
 	min-height: 100vh;
+	padding: 30px 70px 30px 70px;
 }
 .logo{
 	position: absolute;
@@ -65,19 +66,16 @@ top: 15px;
 }
 .log_in{
 	position: absolute;
-	left: 88%;
+	left: 80%;
 	top: 20px;
-	color: white;
 }
-
 .log_in a{
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 5px;
 }
-.log_in a:hover{
 
-}
+
 footer{
 	position: absolute;
 	left: 0;
