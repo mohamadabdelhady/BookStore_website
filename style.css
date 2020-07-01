@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 header{
 	position: absolute;
 	top: 0;
@@ -9,7 +12,7 @@ header{
 }
 main{
 	min-height: 100vh;
-	padding: 30px 70px 30px 70px;
+	padding: 100px 70px 30px 70px;
 }
 .logo{
 	position: absolute;
@@ -20,6 +23,7 @@ main{
 	width: 60px;height: 60px;
 	margin-left: 20px;
 	margin-bottom: 17px;
+	
 }
 .menu{
 	position: relative;
@@ -33,6 +37,9 @@ main{
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
+}
+.dropdown_menu hr{
+	color: white; width: 83%;
 }
 .dropdown_menu a{
 	color: white;
@@ -48,10 +55,11 @@ main{
 }
 .dropdown_menu p:hover{
 cursor: pointer;
+} 
+.dropdown_menu a:hover,p:hover{
+	background-color:#111212;
 }
-.show{
-	display: block;
-}
+
 .search{
 position: absolute;
 left: 34%;
@@ -60,9 +68,16 @@ top: 15px;
 .search input{
 	width: 360px;
 	height: 30px;
+	float: left;
+	border-radius: 10px 0px 0px 10px;
+	border:1px;
 }
 .search button{
-	height: 35px;
+	height: 30px;
+	border-left: none;
+	float: left;
+	border-radius: 0px 10px 10px 0px;
+	border:1px;
 }
 .logp{
 	position: absolute;
