@@ -1,127 +1,19 @@
-*{
-	box-sizing: border-box;
-}
 header{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 13%;
 	background-color: #aeb4b7;
-	
+	border-radius: 0;
+	border:0;
 }
-main{
-	min-height: 100vh;
-	padding: 100px 70px 30px 70px;
+#logo-img{
+	background: url('bookstore_logo.png');
+	width: 300px;
+	height: 75px;
+	margin: 10px 15px 10px 0;
 }
-.logo{
-	position: absolute;
-	left: 8%;
-	top:0;
-}
-.menu_button {
-	width: 60px;height: 60px;
-	margin-left: 20px;
-	margin-bottom: 17px;
-	
-}
-.menu{
-	position: relative;
-	display: inline-block;
-	
-}
-.dropdown_menu{
-	display: none;
-	position: absolute;
-	background-color: black;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-}
-.dropdown_menu hr{
-	color: white; width: 83%;
-}
-.dropdown_menu a{
-	color: white;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-}
-.dropdown_menu p{
-	color: white;
-	padding: 12px 16px;
-	margin: 0;
-	display: block;
-}
-.dropdown_menu p:hover{
-cursor: pointer;
-} 
-.dropdown_menu a:hover,p:hover{
-	background-color:#111212;
-}
-
-.search{
-position: absolute;
-left: 34%;
-top: 15px;
-}
-.search input{
-	width: 360px;
-	height: 30px;
-	float: left;
-	border-radius: 10px 0px 0px 10px;
-	border:1px;
-}
-.search button{
-	height: 30px;
-	border-left: none;
-	float: left;
-	border-radius: 0px 10px 10px 0px;
-	border:1px;
-}
-.logp{
-	position: absolute;
-	left: 75%;
-	top: 40px;
-	color: white;
-}
-.crp{
-	position: absolute;
-	left: 85%;
-	top: 40px;
-	color: white;
-}
-.imglog{
-	position: absolute;
-	left: 75%;
-	top: 20px;
-}
-.crimg{
-position: absolute;
-	left: 85%;
-	top: 20px;
-}
-.log_in a{
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 5px;
-}
-
-
-footer{
-	position: absolute;
-	left: 0;
-	width: 100%;
-	background-color: #aeb4b7;
-
-}
-footer p{
-	margin-left: 20px;
-}
-.items p{
-	margin: 0;
-}
-.items p:hover{
-	background-color: #aeb4b7;
-	color: white;
+@media only screen and (max-width: 600px) {
+ #logo-img{
+ 	background: url('bookstore_logo_sm.png');
+	width: 200px;
+	height: 50px;
+	margin: 10px 15px 10px 0;
+ }
 }
