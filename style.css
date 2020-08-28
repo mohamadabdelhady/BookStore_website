@@ -3,8 +3,13 @@ header{
 	border-radius: 0;
 	border:0;
 }
+main{min-height:100vh;}
+footer{background-color: #aeb4b7;}
+footer a{text-decoration: none;
+color: white;}
+footer a:hover{text-decoration: none; color: black;}
 #logo-img{
-	background: url('bookstore_logo.png');
+	background: url('bookstore_logo.png')no-repeat;
 	width: 300px;
 	height: 75px;
 	margin: 10px 15px 10px 0;
@@ -16,6 +21,13 @@ border-color: black;
 }
 #search-btn:hover{background-color: white; color: black;}
 #search-input{box-shadow: none; border-color: black; }
+#crt-acc
+{
+width: 30px;
+height: 30px;
+margin: 10px 15px 10px 0;
+
+}
 /* small media query*/
 @media only screen and (max-width: 576px) {
  #logo-img{
@@ -28,7 +40,7 @@ border-color: black;
 
 }
 /* large media query*/
-@media only screen and (min-width: 992px) {#Search-form{padding-left: 40px;}}
+@media only screen and (min-width: 992px) {#Search-form{padding-left: 40px; padding-right: 40px;}}
 /* mediam media query*/
 @media only screen and (min-width: 768px)and (max-width: 991px) 
 {
