@@ -52,7 +52,7 @@
           user
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkuser">
-          <a class="dropdown-item" href="log-in.html">log in</a>
+          <a class="dropdown-item" href="#">log in</a>
           <a class="dropdown-item" href="#">create new account</a>
         </div>
       </li>
@@ -65,10 +65,26 @@
 
 </nav>
 </header>
-<main>
-	<div class="jumbotron jumbotron-fluid pl-4">
-		<h1 class="display-4">Wellcome to intellect book store</h1>
-		<p class="lead">An online book store that will satisfy all your book related needs.</p>
+<main style="background-image: url('log-in-banner.jpg');background-repeat: none;background-size: cover; opacity: 0.5">
+	<br>
+	<div>
+		<form class="card col-lg-5 col-md-4 col-sm-5 col-xl-5 py-3 px-3 m-5  mx-auto " id="log-in-form">
+			<div class="form-group justify-content-center">
+				<label for="user-emil">Email</label>
+				<input type="email" class="form-control" id="user-emil" aria-describedby="email-help" placeholder="Enter email">
+				<small id="email-help" class="form-text text-muted">We will never share your email with anyone else.</small>
+			</div>
+			<div class="form-group">
+				<label for="user-password">Password</label>
+				<input type="password" class="form-control" id="user-password" placeholder="Enter password">
+			</div>
+			<div class="form-check">
+   			 	<input type="checkbox" class="form-check-input" id="check-remeber-me">
+   				<label class="form-check-label" for="check-remeber-me">Remember me</label>
+ 			</div>
+ 			<a href="">did you forgot your password?</a>
+			<button type="submit" class="btn btn-primary">Log in</button>
+		</form>
 	</div>
 </main>
 <!-- JS, Popper.js, and jQuery -->
