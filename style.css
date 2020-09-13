@@ -10,7 +10,7 @@ color: white;}
 footer a:hover{text-decoration: none; color: black;}
 #log-in-form a{text-decoration: none; color: black;}
 #log-in-form a:hover{color:#aeb4b7;}
-#log-in-form button{background-color:#aeb4b7; border-color:black; }
+#log-in-form button{background-color:#aeb4b7; border-color:black; box-shadow: none; }
 #log-in-form button:hover{background-color:black;  }
 #log-in-form input{box-shadow: none; border-color: black;}
 #logo-img{

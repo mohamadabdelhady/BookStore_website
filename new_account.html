@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Intellect Bookstore</title>
-  <meta charset="utf-8">
+	<title>Intellect Bookstore</title>
+	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='icon' href='favicon-ibs.ico' type='image/x-icon'/ >
-  <!-- CSS only -->
+	<!-- CSS only -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <header>
@@ -65,11 +65,31 @@
 
 </nav>
 </header>
-<main>
-   <div class="jumbotron jumbotron-fluid pl-4">
-   <h1 class="display-4">Science fiction books section</h1>
-    <p class="lead"></p>
-  </div>
+<main style="background-image: url('log-in-banner.jpg');background-repeat: none;background-size: cover; opacity: 0.5">
+	<br>
+	<div >
+		<form class="card col-lg-5 col-md-4 col-sm-5 col-xl-5 py-3 px-3 m-5  mx-auto " id="log-in-form">
+			<div class="form-group justify-content-center">
+				<label for="user-emil">Email</label>
+				<input type="email" class="form-control" id="user-emil" aria-describedby="email-help" placeholder="Enter email">
+				<small id="email-help" class="form-text text-muted">We will never share your email with anyone else.</small>
+			</div>
+			<div class="form-group">
+				<label for="user-password">Password</label>
+				<input type="password" class="form-control" id="user-password" placeholder="Enter password">
+			</div>
+      <div class="form-group">
+        <label for="user-confirm-password">Confirm password</label>
+        <input type="password" class="form-control" id="user-confirm-password" placeholder="confirm password">
+      </div>
+			<div class="form-group">
+				<label for="user-name">Name</label>
+				<input type="text" class="form-control" id="user-name" placeholder="Enter your name">
+			</div>
+			
+			<button type="submit" class="btn btn-primary">Create new account</button>
+		</form>
+	</div><br>
 </main>
 <!-- JS, Popper.js, and jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -88,8 +108,8 @@
         <h5 class="text-uppercase">Website Content</h5>
         <a href="about.html">About us</a><br>
         <a href="#" class="fa fa-facebook "></a>
-      <a href="#" class="fa fa-twitter mx-2"></a>
-      <a href="#" class="fa fa-reddit "></a>
+	    <a href="#" class="fa fa-twitter mx-2"></a>
+	    <a href="#" class="fa fa-reddit "></a>
       </div>
       <!-- Grid column -->
 
